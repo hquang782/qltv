@@ -257,11 +257,9 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         jScrollPane1.setViewportView(tblBang);
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setText("Phiếu Mượn");
 
         btnSua.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        btnSua.setForeground(new java.awt.Color(0, 0, 204));
         btnSua.setText("Sửa");
         btnSua.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSua.addActionListener(new java.awt.event.ActionListener() {
@@ -271,7 +269,6 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         });
 
         btnPrint.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        btnPrint.setForeground(new java.awt.Color(0, 0, 204));
         btnPrint.setText("Làm Mới Form");
         btnPrint.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnPrint.addActionListener(new java.awt.event.ActionListener() {
@@ -281,7 +278,6 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         });
 
         btnTaoMoi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        btnTaoMoi.setForeground(new java.awt.Color(0, 0, 204));
         btnTaoMoi.setText("Tạo Mới");
         btnTaoMoi.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnTaoMoi.addActionListener(new java.awt.event.ActionListener() {
@@ -420,7 +416,6 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         );
 
         btnXoa.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        btnXoa.setForeground(new java.awt.Color(0, 0, 204));
         btnXoa.setText("Xóa");
         btnXoa.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnXoa.addActionListener(new java.awt.event.ActionListener() {

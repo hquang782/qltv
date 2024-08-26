@@ -677,7 +677,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         pnl3.setPreferredSize(new java.awt.Dimension(890, 420));
 
         lblTitleSach.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lblTitleSach.setForeground(new java.awt.Color(0, 0, 204));
         lblTitleSach.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitleSach.setText("SÁCH");
 
@@ -759,7 +758,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         pnl9.setMaximumSize(new java.awt.Dimension(3274, 3276));
 
         lblTitleTLS.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lblTitleTLS.setForeground(new java.awt.Color(0, 0, 204));
         lblTitleTLS.setText("THỂ LOẠI SÁCH");
 
         pnl10.setBackground(new java.awt.Color(204, 255, 255));
@@ -857,7 +855,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         pnl12.setBackground(new java.awt.Color(204, 255, 255));
 
         lblTitlePM1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lblTitlePM1.setForeground(new java.awt.Color(0, 0, 204));
         lblTitlePM1.setText("PHIẾU VI PHẠM");
 
         tblViPham.setModel(new javax.swing.table.DefaultTableModel(
@@ -883,7 +880,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         jScrollPane5.setViewportView(tblViPham);
 
         lblDanhSachPM1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        lblDanhSachPM1.setForeground(new java.awt.Color(0, 0, 204));
         lblDanhSachPM1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblDanhSachPM1.setText("DANH SÁCH VI PHẠM");
 
@@ -902,7 +898,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         });
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 204));
         jLabel4.setText("Tìm kiếm theo mã phiếu");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -1031,7 +1026,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
                                 .addGap(52, 52, 52)
                                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnl12Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(timkiem1)
                                 .addGap(18, 18, 18)))))
                 .addGap(26, 26, 26)
@@ -1054,7 +1048,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         pnl11.setBackground(new java.awt.Color(204, 255, 255));
 
         lblTitlePM.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lblTitlePM.setForeground(new java.awt.Color(0, 0, 204));
         lblTitlePM.setText("PHIẾU MƯỢN SÁCH");
 
         tblPhieuMuon.setModel(new javax.swing.table.DefaultTableModel(
@@ -1080,7 +1073,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         jScrollPane4.setViewportView(tblPhieuMuon);
 
         lblDanhSachPM.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        lblDanhSachPM.setForeground(new java.awt.Color(0, 0, 204));
         lblDanhSachPM.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblDanhSachPM.setText("DANH SÁCH PHIẾU MƯỢN");
 
@@ -1101,7 +1093,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         txtPhieuMuon.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setText("Tìm kiếm theo mã phiếu");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
