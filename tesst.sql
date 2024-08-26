@@ -149,18 +149,19 @@ INSERT INTO `theloaisach` (`MaTheLoai`, `TenTheLoai`, `ViTri`) VALUES
 CREATE TABLE `vipham` (
   `MaViPham` varchar(10) NOT NULL,
   `MaSV` varchar(10) DEFAULT NULL,
-  `Ten` varchar(30) DEFAULT NULL
+  `Ten` varchar(30) DEFAULT NULL,
+  `Phat` float DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `vipham`
 --
 
-INSERT INTO `vipham` (`MaViPham`, `MaSV`, `Ten`) VALUES
-('VP01', 'a39003', 'Rách sách'),
-('VP02', 'a38004', 'Trả sách muộn'),
-('VP03', 'a39173', 'Vẽ lên sách'),
-('VP04', 'a39003', 'Trả sách muộn');
+INSERT INTO `vipham` (`MaViPham`, `MaSV`, `Ten`,`Phat`) VALUES
+('VP01', 'a39003', 'Rách sách','30000'),
+('VP02', 'a38004', 'Trả sách muộn','20000'),
+('VP03', 'a39173', 'Vẽ lên sách','20000'),
+('VP04', 'a39003', 'Trả sách muộn','20000');
 
 --
 -- Chỉ mục cho các bảng đã đổ
