@@ -9,7 +9,7 @@ CREATE TABLE `admin` (
   PRIMARY KEY (`Username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO `admin` VALUES ('admin','2','012345');
+INSERT INTO `admin` VALUES ('admin','a','Nguyễn Đắc Khánh');
 
 CREATE TABLE `lop` (
   `MaLop` varchar(10) NOT NULL,
@@ -78,10 +78,10 @@ CREATE TABLE `sinhvien` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `sinhvien` (`MaSV`, `Password`, `MaLop`, `HoTen`, `NgaySinh`, `GioiTinh`, `DiaChi`, `SDT`, `Email`) VALUES
-('a38004', '111', 'ML04', 'Phạm Thu Trang', '2002-09-11', b'0', 'Lai Châu', '0345678221', 'trang234@gmail.com'),
-('a39003', '54321', 'ML02', 'Phạm Đức Anh', '2002-11-14', b'1', 'Tuyên Quang', '0345678765', 'anhpham23@gmail.com'),
-('a39006', '666', 'ML01', 'Vũ Văn Trung', '2002-03-01', b'1', 'Hà Nội', '0987654321', 'trung@gmail.com'),
-('a39173', '333', 'ML03', 'Lê Anh Tú', '2012-10-09', b'1', 'Phú Thọ', '0376854321', 'tule2@gmail.com');
+('a38004', '111', 'ML04', 'Nguyễn Văn A', '2002-09-11', b'0', 'Lai Châu', '0345678221', 'nguyenva@gmail.com'),
+('a39003', '54321', 'ML02', 'Phạm Đức B', '2002-11-14', b'1', 'Tuyên Quang', '0345678765', 'ducpham23@gmail.com'),
+('a39006', '666', 'ML01', 'Lê Xuân C', '2002-03-01', b'1', 'Hà Nội', '0987654321', 'xuanle@gmail.com'),
+('a39173', '333', 'ML03', 'Nguyễn Đắc Khánh', '2002-10-09', b'1', 'Phú Thọ', '0376854321', 'nguyendackhanh@gmail.com');
 
 CREATE TABLE `phieumuon` (
   `MaPhieuMuon` varchar(10) NOT NULL,
