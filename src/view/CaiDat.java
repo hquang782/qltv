@@ -60,7 +60,7 @@ public class CaiDat extends javax.swing.JFrame {
 
         jSplitPane1.setDividerSize(0);
 
-        jPanel1.setBackground(new java.awt.Color(0, 74, 173));
+        jPanel1.setBackground(new java.awt.Color(24, 133, 127));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -85,19 +85,19 @@ public class CaiDat extends javax.swing.JFrame {
 
         jSplitPane1.setLeftComponent(jPanel1);
 
-        jPanel2.setBackground(new java.awt.Color(3, 111, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Tên người dùng:");
 
         jLabel6.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Mật khẩu :");
 
         txtUser.setForeground(new java.awt.Color(51, 51, 51));
 
+        btnLuu.setBackground(new java.awt.Color(24, 133, 127));
         btnLuu.setText("Lưu");
+        btnLuu.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnLuu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLuuActionPerformed(evt);
@@ -135,7 +135,7 @@ public class CaiDat extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 100, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 101, Short.MAX_VALUE)
                 .addComponent(btnLuu)
                 .addContainerGap())
         );

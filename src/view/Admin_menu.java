@@ -70,7 +70,6 @@ public class Admin_menu extends javax.swing.JFrame {
         jLabel20 = new javax.swing.JLabel();
 
         diaLong_caiDat.setResizable(false);
-        diaLong_caiDat.getContentPane().setLayout(new java.awt.BorderLayout());
 
         jSplitPane2.setDividerSize(0);
 
@@ -215,7 +214,6 @@ public class Admin_menu extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Quản Lý Thư Viện");
-        getContentPane().setLayout(new java.awt.BorderLayout());
 
         jSplitPane1.setDividerSize(0);
 
@@ -224,14 +222,14 @@ public class Admin_menu extends javax.swing.JFrame {
         deskopMain.setLayout(new java.awt.BorderLayout());
         jSplitPane1.setRightComponent(deskopMain);
 
-        jPanel1.setBackground(new java.awt.Color(36, 210, 254));
+        jPanel1.setBackground(new java.awt.Color(1, 128, 129));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setMinimumSize(new java.awt.Dimension(200, 620));
         jPanel1.setPreferredSize(new java.awt.Dimension(200, 520));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        pnlHome.setBackground(new java.awt.Color(36, 210, 254));
-        pnlHome.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlHome.setBackground(new java.awt.Color(1, 128, 129));
+        pnlHome.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         pnlHome.setAutoscrolls(true);
         pnlHome.setMinimumSize(new java.awt.Dimension(36, 36));
         pnlHome.setPreferredSize(new java.awt.Dimension(36, 36));
@@ -250,7 +248,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jPanel1.add(pnlHome, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 70));
 
         pnlQuanLySinhVien.setBackground(new java.awt.Color(255, 255, 255));
-        pnlQuanLySinhVien.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlQuanLySinhVien.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         pnlQuanLySinhVien.setMinimumSize(new java.awt.Dimension(155, 26));
         pnlQuanLySinhVien.setPreferredSize(new java.awt.Dimension(155, 26));
         pnlQuanLySinhVien.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -269,7 +267,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jPanel1.add(pnlQuanLySinhVien, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 200, 60));
 
         pnlQuanLyViPham.setBackground(new java.awt.Color(255, 255, 255));
-        pnlQuanLyViPham.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlQuanLyViPham.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         pnlQuanLyViPham.setMinimumSize(new java.awt.Dimension(155, 26));
         pnlQuanLyViPham.setPreferredSize(new java.awt.Dimension(155, 26));
         pnlQuanLyViPham.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -288,7 +286,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jPanel1.add(pnlQuanLyViPham, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 350, 200, 60));
 
         pnlQuanLyPhieuMuon.setBackground(new java.awt.Color(255, 255, 255));
-        pnlQuanLyPhieuMuon.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlQuanLyPhieuMuon.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         pnlQuanLyPhieuMuon.setMinimumSize(new java.awt.Dimension(155, 26));
         pnlQuanLyPhieuMuon.setPreferredSize(new java.awt.Dimension(155, 26));
         pnlQuanLyPhieuMuon.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -307,7 +305,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jPanel1.add(pnlQuanLyPhieuMuon, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 200, 60));
 
         pnlQuanLySach.setBackground(new java.awt.Color(255, 255, 255));
-        pnlQuanLySach.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlQuanLySach.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         pnlQuanLySach.setMinimumSize(new java.awt.Dimension(155, 26));
         pnlQuanLySach.setPreferredSize(new java.awt.Dimension(155, 26));
         pnlQuanLySach.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -329,7 +327,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jPanel1.add(pnlQuanLySach, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 200, 60));
 
         pnlQuanLyTheLoaiSach.setBackground(new java.awt.Color(255, 255, 255));
-        pnlQuanLyTheLoaiSach.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlQuanLyTheLoaiSach.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         pnlQuanLyTheLoaiSach.setMinimumSize(new java.awt.Dimension(155, 26));
         pnlQuanLyTheLoaiSach.setPreferredSize(new java.awt.Dimension(155, 26));
         pnlQuanLyTheLoaiSach.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -348,7 +346,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jPanel1.add(pnlQuanLyTheLoaiSach, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 210, 200, 60));
 
         pnlCaiDat.setBackground(new java.awt.Color(255, 255, 255));
-        pnlCaiDat.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlCaiDat.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         pnlCaiDat.setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
         pnlCaiDat.setMinimumSize(new java.awt.Dimension(155, 26));
         pnlCaiDat.setPreferredSize(new java.awt.Dimension(155, 26));

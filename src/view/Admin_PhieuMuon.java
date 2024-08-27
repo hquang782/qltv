@@ -234,7 +234,7 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         txtSearch = new javax.swing.JTextField();
         btnXoa = new javax.swing.JButton();
 
-        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         tblBang.setForeground(new java.awt.Color(51, 51, 51));
         tblBang.setModel(new javax.swing.table.DefaultTableModel(
@@ -259,7 +259,9 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         jLabel1.setText("Phiếu Mượn");
 
+        btnSua.setBackground(new java.awt.Color(24, 133, 127));
         btnSua.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSua.setForeground(new java.awt.Color(255, 255, 255));
         btnSua.setText("Sửa");
         btnSua.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSua.addActionListener(new java.awt.event.ActionListener() {
@@ -268,7 +270,9 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
             }
         });
 
+        btnPrint.setBackground(new java.awt.Color(24, 133, 127));
         btnPrint.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnPrint.setForeground(new java.awt.Color(255, 255, 255));
         btnPrint.setText("Làm Mới Form");
         btnPrint.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnPrint.addActionListener(new java.awt.event.ActionListener() {
@@ -277,7 +281,9 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
             }
         });
 
+        btnTaoMoi.setBackground(new java.awt.Color(24, 133, 127));
         btnTaoMoi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnTaoMoi.setForeground(new java.awt.Color(255, 255, 255));
         btnTaoMoi.setText("Tạo Mới");
         btnTaoMoi.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnTaoMoi.addActionListener(new java.awt.event.ActionListener() {
@@ -386,7 +392,7 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
                 .addContainerGap(27, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tìm kiếm Mã TL, Tên TL hoặc Vị trí", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
 
         btnSearch.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/search.png"))); // NOI18N
@@ -415,7 +421,9 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
             .addComponent(btnSearch)
         );
 
+        btnXoa.setBackground(new java.awt.Color(24, 133, 127));
         btnXoa.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnXoa.setForeground(new java.awt.Color(255, 255, 255));
         btnXoa.setText("Xóa");
         btnXoa.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnXoa.addActionListener(new java.awt.event.ActionListener() {

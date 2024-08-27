@@ -62,23 +62,23 @@ public class Login extends javax.swing.JFrame {
         jPanellogin.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 74, 173));
+        jLabel1.setForeground(new java.awt.Color(24, 133, 127));
         jLabel1.setText("SIGN IN");
         jPanellogin.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(143, 280, 82, 34));
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 74, 173));
+        jLabel3.setForeground(new java.awt.Color(24, 133, 127));
         jLabel3.setText("USER NAME");
         jPanellogin.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, 86, 26));
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 74, 173));
+        jLabel4.setForeground(new java.awt.Color(24, 133, 127));
         jLabel4.setText("PASSWORD");
         jPanellogin.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, 86, 26));
         jPanellogin.add(txt_password_login, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 396, 200, 30));
 
         btn_dangnhap_login.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        btn_dangnhap_login.setForeground(new java.awt.Color(0, 74, 173));
+        btn_dangnhap_login.setForeground(new java.awt.Color(24, 133, 127));
         btn_dangnhap_login.setText("ĐĂNG NHẬP");
         btn_dangnhap_login.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btn_dangnhap_login.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +89,7 @@ public class Login extends javax.swing.JFrame {
         jPanellogin.add(btn_dangnhap_login, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 520, 120, 35));
 
         btn_thoat_login.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        btn_thoat_login.setForeground(new java.awt.Color(0, 74, 173));
+        btn_thoat_login.setForeground(new java.awt.Color(24, 133, 127));
         btn_thoat_login.setText("THOÁT");
         btn_thoat_login.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btn_thoat_login.addActionListener(new java.awt.event.ActionListener() {
@@ -104,13 +104,13 @@ public class Login extends javax.swing.JFrame {
 
         buttonGroup1.add(jRadioButton_student_login);
         jRadioButton_student_login.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jRadioButton_student_login.setForeground(new java.awt.Color(0, 74, 173));
+        jRadioButton_student_login.setForeground(new java.awt.Color(24, 133, 127));
         jRadioButton_student_login.setText("STUDENT");
         jPanellogin.add(jRadioButton_student_login, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 450, -1, -1));
 
         buttonGroup1.add(jRadioButton_admin_login);
         jRadioButton_admin_login.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jRadioButton_admin_login.setForeground(new java.awt.Color(0, 74, 173));
+        jRadioButton_admin_login.setForeground(new java.awt.Color(24, 133, 127));
         jRadioButton_admin_login.setText("ADMIN");
         jRadioButton_admin_login.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,7 +132,7 @@ public class Login extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanellogin, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))

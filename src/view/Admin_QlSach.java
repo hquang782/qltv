@@ -310,7 +310,7 @@ public class Admin_QlSach extends javax.swing.JInternalFrame {
         setMinimumSize(new java.awt.Dimension(1200, 750));
         setName(""); // NOI18N
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         pnlThongTinSach.setBackground(new java.awt.Color(255, 255, 255));
         pnlThongTinSach.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Thông Tin", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
@@ -426,7 +426,7 @@ public class Admin_QlSach extends javax.swing.JInternalFrame {
         lblTitle.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         lblTitle.setText("Quản Lý Sách");
 
-        pnlSearchSach.setBackground(new java.awt.Color(204, 255, 255));
+        pnlSearchSach.setBackground(new java.awt.Color(255, 255, 255));
         pnlSearchSach.setBorder(javax.swing.BorderFactory.createTitledBorder("Tìm Kiếm Theo Mã hoặc Tên"));
 
         txtSearch.addActionListener(new java.awt.event.ActionListener() {
@@ -435,7 +435,7 @@ public class Admin_QlSach extends javax.swing.JInternalFrame {
             }
         });
 
-        btnSearch.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Search_1.png"))); // NOI18N
+        btnSearch.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/search.png"))); // NOI18N
         btnSearch.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnSearchMouseClicked(evt);
@@ -449,16 +449,17 @@ public class Admin_QlSach extends javax.swing.JInternalFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlSearchSachLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(txtSearch, javax.swing.GroupLayout.DEFAULT_SIZE, 438, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnSearch)
-                .addGap(82, 82, 82))
+                .addGap(18, 18, 18)
+                .addComponent(btnSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(73, 73, 73))
         );
         pnlSearchSachLayout.setVerticalGroup(
             pnlSearchSachLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlSearchSachLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(pnlSearchSachLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(txtSearch, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
+                .addGroup(pnlSearchSachLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlSearchSachLayout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(txtSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(btnSearch, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -482,7 +483,9 @@ public class Admin_QlSach extends javax.swing.JInternalFrame {
         });
         ScrollPaneQLSach.setViewportView(tblQuanLySach);
 
+        btnXoa.setBackground(new java.awt.Color(24, 133, 127));
         btnXoa.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnXoa.setForeground(new java.awt.Color(255, 255, 255));
         btnXoa.setText("Xóa");
         btnXoa.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnXoa.addActionListener(new java.awt.event.ActionListener() {
@@ -491,7 +494,9 @@ public class Admin_QlSach extends javax.swing.JInternalFrame {
             }
         });
 
+        btnLuu.setBackground(new java.awt.Color(24, 133, 127));
         btnLuu.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnLuu.setForeground(new java.awt.Color(255, 255, 255));
         btnLuu.setText("Lưu");
         btnLuu.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnLuu.addActionListener(new java.awt.event.ActionListener() {
@@ -500,7 +505,9 @@ public class Admin_QlSach extends javax.swing.JInternalFrame {
             }
         });
 
+        btnTaoMoi.setBackground(new java.awt.Color(24, 133, 127));
         btnTaoMoi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnTaoMoi.setForeground(new java.awt.Color(255, 255, 255));
         btnTaoMoi.setText("Tạo Mới");
         btnTaoMoi.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnTaoMoi.addActionListener(new java.awt.event.ActionListener() {
@@ -509,7 +516,9 @@ public class Admin_QlSach extends javax.swing.JInternalFrame {
             }
         });
 
+        btnSua.setBackground(new java.awt.Color(24, 133, 127));
         btnSua.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSua.setForeground(new java.awt.Color(255, 255, 255));
         btnSua.setText("Sửa");
         btnSua.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSua.addActionListener(new java.awt.event.ActionListener() {
@@ -539,7 +548,7 @@ public class Admin_QlSach extends javax.swing.JInternalFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(pnlSearchSach, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 113, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 105, Short.MAX_VALUE)))
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(pnlThongTinSach, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()

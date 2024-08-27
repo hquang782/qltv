@@ -126,10 +126,10 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
         btnTaoMoi = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        jPanel4.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setPreferredSize(new java.awt.Dimension(1600, 754));
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tìm kiếm Mã TL, Tên TL hoặc Vị trí", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
 
         txtSearch.addActionListener(new java.awt.event.ActionListener() {
@@ -252,7 +252,9 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
         });
         jScrollPane1.setViewportView(tblBang);
 
+        btnPrint.setBackground(new java.awt.Color(24, 133, 127));
         btnPrint.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnPrint.setForeground(new java.awt.Color(255, 255, 255));
         btnPrint.setText("Làm mới Form");
         btnPrint.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnPrint.addActionListener(new java.awt.event.ActionListener() {
@@ -261,7 +263,9 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
             }
         });
 
+        btnSua.setBackground(new java.awt.Color(24, 133, 127));
         btnSua.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSua.setForeground(new java.awt.Color(255, 255, 255));
         btnSua.setText("Sửa");
         btnSua.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSua.addActionListener(new java.awt.event.ActionListener() {
@@ -270,7 +274,9 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
             }
         });
 
+        btnXoa.setBackground(new java.awt.Color(24, 133, 127));
         btnXoa.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnXoa.setForeground(new java.awt.Color(255, 255, 255));
         btnXoa.setText("Xóa");
         btnXoa.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnXoa.addActionListener(new java.awt.event.ActionListener() {
@@ -279,7 +285,9 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
             }
         });
 
+        btnTaoMoi.setBackground(new java.awt.Color(24, 133, 127));
         btnTaoMoi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnTaoMoi.setForeground(new java.awt.Color(255, 255, 255));
         btnTaoMoi.setText("Tạo Mới");
         btnTaoMoi.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnTaoMoi.addActionListener(new java.awt.event.ActionListener() {

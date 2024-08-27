@@ -401,7 +401,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
             }
         });
 
-        pnlForm.setBackground(new java.awt.Color(51, 66, 155));
+        pnlForm.setBackground(new java.awt.Color(1, 128, 129));
         pnlForm.setForeground(new java.awt.Color(0, 51, 255));
         pnlForm.setMinimumSize(new java.awt.Dimension(1000, 600));
 
@@ -419,7 +419,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
             }
         });
 
-        pnl1.setBackground(new java.awt.Color(51, 66, 155));
+        pnl1.setBackground(new java.awt.Color(1, 128, 129));
 
         tab.setBackground(new java.awt.Color(255, 255, 255));
         tab.setTabPlacement(javax.swing.JTabbedPane.LEFT);
@@ -431,43 +431,34 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         tabSV.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         tabSV.setPreferredSize(new java.awt.Dimension(890, 420));
 
-        pnl2.setBackground(new java.awt.Color(204, 255, 255));
+        pnl2.setBackground(new java.awt.Color(255, 255, 255));
 
         lblTitleSV.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lblTitleSV.setForeground(new java.awt.Color(0, 0, 204));
         lblTitleSV.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/member.png"))); // NOI18N
         lblTitleSV.setText("THÔNG TIN SINH VIÊN");
 
         lblMaSV.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblMaSV.setForeground(new java.awt.Color(0, 0, 204));
         lblMaSV.setText("Mã SV:");
 
         lblPassword.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblPassword.setForeground(new java.awt.Color(0, 0, 204));
         lblPassword.setText("Password:");
 
         lblHoTen.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblHoTen.setForeground(new java.awt.Color(0, 0, 204));
         lblHoTen.setText("Họ tên:");
 
         lblNgaySinh.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblNgaySinh.setForeground(new java.awt.Color(0, 0, 204));
         lblNgaySinh.setText("Ngày sinh:");
 
         lblGioiTinh.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblGioiTinh.setForeground(new java.awt.Color(0, 0, 204));
         lblGioiTinh.setText("Giới tính:");
 
         lblEmail.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblEmail.setForeground(new java.awt.Color(0, 0, 204));
         lblEmail.setText("Email:");
 
         lblDiaChi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblDiaChi.setForeground(new java.awt.Color(0, 0, 204));
         lblDiaChi.setText("Địa chỉ:");
 
         lblSDT.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblSDT.setForeground(new java.awt.Color(0, 0, 204));
         lblSDT.setText("SĐT:");
 
         txtEmail.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
@@ -485,16 +476,15 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         buttonGroup1.add(rdoNam);
         rdoNam.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        rdoNam.setForeground(new java.awt.Color(0, 0, 204));
         rdoNam.setText("Nam");
 
         buttonGroup1.add(rdoNu);
         rdoNu.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        rdoNu.setForeground(new java.awt.Color(0, 0, 204));
         rdoNu.setText("Nữ");
 
+        btnCapNhat.setBackground(new java.awt.Color(1, 128, 129));
         btnCapNhat.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        btnCapNhat.setForeground(new java.awt.Color(0, 0, 204));
+        btnCapNhat.setForeground(new java.awt.Color(255, 255, 255));
         btnCapNhat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/update.png"))); // NOI18N
         btnCapNhat.setText("Cập nhật");
         btnCapNhat.addActionListener(new java.awt.event.ActionListener() {
@@ -520,7 +510,6 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         txtLop.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
 
         lblMaSV1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblMaSV1.setForeground(new java.awt.Color(0, 0, 204));
         lblMaSV1.setText("Lớp:");
 
         txtMaSV.setEditable(false);
@@ -673,14 +662,14 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         tabSach.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         tabSach.setPreferredSize(new java.awt.Dimension(890, 420));
 
-        pnl3.setBackground(new java.awt.Color(204, 255, 255));
+        pnl3.setBackground(new java.awt.Color(255, 255, 255));
         pnl3.setPreferredSize(new java.awt.Dimension(890, 420));
 
         lblTitleSach.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblTitleSach.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitleSach.setText("SÁCH");
 
-        pnl4.setBackground(new java.awt.Color(204, 255, 255));
+        pnl4.setBackground(new java.awt.Color(255, 255, 255));
         pnl4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tìm Kiếm theo Mã Sách, Tên Sách, Mã TL", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
         pnl4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -754,16 +743,18 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         tabSach.addTab("Sách", pnl3);
 
-        pnl9.setBackground(new java.awt.Color(204, 255, 255));
+        pnl9.setBackground(new java.awt.Color(255, 255, 255));
         pnl9.setMaximumSize(new java.awt.Dimension(3274, 3276));
 
         lblTitleTLS.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblTitleTLS.setText("THỂ LOẠI SÁCH");
 
-        pnl10.setBackground(new java.awt.Color(204, 255, 255));
+        pnl10.setBackground(new java.awt.Color(255, 255, 255));
         pnl10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tìm kiếm Mã TL, Tên TL hoặc Vị trí", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
 
         txtSearchTLS.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        lblIconSearchTLS.setBackground(new java.awt.Color(255, 255, 255));
 
         timkiemtheloai.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/search.png"))); // NOI18N
         timkiemtheloai.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -852,7 +843,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         tabVP.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         tabVP.setPreferredSize(new java.awt.Dimension(890, 420));
 
-        pnl12.setBackground(new java.awt.Color(204, 255, 255));
+        pnl12.setBackground(new java.awt.Color(255, 255, 255));
 
         lblTitlePM1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblTitlePM1.setText("PHIẾU VI PHẠM");
@@ -887,7 +878,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         lblSoLuong2.setForeground(new java.awt.Color(255, 0, 0));
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setForeground(new java.awt.Color(0, 0, 153));
 
         txtViPham.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -923,17 +914,21 @@ public class jFSinhVien1 extends javax.swing.JFrame {
                 .addGap(19, 19, 19))
         );
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setBackground(new java.awt.Color(24, 133, 127));
         jPanel3.setForeground(new java.awt.Color(255, 204, 204));
 
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Giá phạt");
 
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Rách sách, vẽ bậy: 20.000 (vnđ)");
         jLabel7.setToolTipText("");
         jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Mất trang, hỏng bìa: 30.000 (vnđ)");
 
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Mất sách: Giá của sách ");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -1045,7 +1040,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         tabPM.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         tabPM.setPreferredSize(new java.awt.Dimension(890, 420));
 
-        pnl11.setBackground(new java.awt.Color(204, 255, 255));
+        pnl11.setBackground(new java.awt.Color(255, 255, 255));
 
         lblTitlePM.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblTitlePM.setText("PHIẾU MƯỢN SÁCH");
@@ -1080,7 +1075,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         lblSoLuong1.setForeground(new java.awt.Color(255, 0, 0));
 
-        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setForeground(new java.awt.Color(0, 0, 153));
 
         timkiem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/search.png"))); // NOI18N

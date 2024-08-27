@@ -370,7 +370,7 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
         setNormalBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setPreferredSize(new java.awt.Dimension(1040, 754));
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setMinimumSize(new java.awt.Dimension(1200, 650));
         jPanel2.setPreferredSize(new java.awt.Dimension(1154, 754));
 
@@ -543,39 +543,51 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("QUẢN LÝ SINH VIÊN");
 
+        btnLuu.setBackground(new java.awt.Color(24, 133, 127));
         btnLuu.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnLuu.setForeground(new java.awt.Color(255, 255, 255));
         btnLuu.setText("Lưu");
+        btnLuu.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnLuu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLuuActionPerformed(evt);
             }
         });
 
+        btnSua.setBackground(new java.awt.Color(24, 133, 127));
         btnSua.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSua.setForeground(new java.awt.Color(255, 255, 255));
         btnSua.setText("Sửa");
+        btnSua.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSua.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSuaActionPerformed(evt);
             }
         });
 
+        btnXoa.setBackground(new java.awt.Color(24, 133, 127));
         btnXoa.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnXoa.setForeground(new java.awt.Color(255, 255, 255));
         btnXoa.setText("Xóa");
+        btnXoa.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnXoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnXoaActionPerformed(evt);
             }
         });
 
+        btnTaoMoi.setBackground(new java.awt.Color(24, 133, 127));
         btnTaoMoi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnTaoMoi.setForeground(new java.awt.Color(255, 255, 255));
         btnTaoMoi.setText("Tạo Mới");
+        btnTaoMoi.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnTaoMoi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTaoMoiActionPerformed(evt);
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Tìm Kiếm Theo Mã hoặc Tên"));
 
         txtSearch.addActionListener(new java.awt.event.ActionListener() {

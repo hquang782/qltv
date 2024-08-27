@@ -218,7 +218,7 @@ public class Admin_ViPham extends javax.swing.JInternalFrame {
         btnTaoMoi = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        jPanel4.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setPreferredSize(new java.awt.Dimension(1000, 650));
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
@@ -326,7 +326,7 @@ public class Admin_ViPham extends javax.swing.JInternalFrame {
                 .addContainerGap(47, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tìm kiếm Mã Vi Phạm hoặc Mã Sinh Viên", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
 
         txtSearch.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -358,7 +358,7 @@ public class Admin_ViPham extends javax.swing.JInternalFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                 .addComponent(txtSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addComponent(search, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(search))
             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
@@ -382,32 +382,44 @@ public class Admin_ViPham extends javax.swing.JInternalFrame {
         });
         jScrollPane1.setViewportView(tblBang);
 
+        btnSua.setBackground(new java.awt.Color(24, 133, 127));
         btnSua.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSua.setForeground(new java.awt.Color(255, 255, 255));
         btnSua.setText("Sửa");
+        btnSua.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSua.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSuaActionPerformed(evt);
             }
         });
 
+        btnXoa.setBackground(new java.awt.Color(24, 133, 127));
         btnXoa.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnXoa.setForeground(new java.awt.Color(255, 255, 255));
         btnXoa.setText("Xóa");
+        btnXoa.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnXoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnXoaActionPerformed(evt);
             }
         });
 
+        btnThem.setBackground(new java.awt.Color(24, 133, 127));
         btnThem.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnThem.setForeground(new java.awt.Color(255, 255, 255));
         btnThem.setText("Thêm");
+        btnThem.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnThem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnThemActionPerformed(evt);
             }
         });
 
+        btnTaoMoi.setBackground(new java.awt.Color(24, 133, 127));
         btnTaoMoi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnTaoMoi.setForeground(new java.awt.Color(255, 255, 255));
         btnTaoMoi.setText("Tạo Mới");
+        btnTaoMoi.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnTaoMoi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTaoMoiActionPerformed(evt);
@@ -466,7 +478,7 @@ public class Admin_ViPham extends javax.swing.JInternalFrame {
                     .addComponent(btnThem, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnXoa, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnSua, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(42, Short.MAX_VALUE))
+                .addContainerGap(40, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
