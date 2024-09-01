@@ -50,44 +50,35 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
-                                  <Component id="btnSua" min="-2" pref="103" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
-                                  <Component id="btnXoa" min="-2" pref="109" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane1" min="-2" pref="558" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="btnPrint" min="-2" pref="144" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
-                                  <Component id="btnTaoMoi" min="-2" pref="130" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
-                                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="441" max="-2" attributes="0"/>
                           <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jScrollPane1" pref="558" max="32767" attributes="0"/>
+                                  <Component id="jPanel2" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                              <Component id="btnSua" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                              <Component id="btnXoa" min="-2" pref="109" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                              <Component id="btnPrint" min="-2" pref="144" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                              <Component id="btnTaoMoi" min="-2" pref="130" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
                   </Group>
-                  <EmptySpace pref="547" max="32767" attributes="0"/>
+                  <EmptySpace pref="579" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -96,12 +87,14 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jScrollPane1" min="-2" pref="302" max="-2" attributes="0"/>
-                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jPanel3" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -110,7 +103,7 @@
                       <Component id="btnTaoMoi" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                       <Component id="btnPrint" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="200" max="32767" attributes="0"/>
+                  <EmptySpace pref="209" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -139,11 +132,11 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="txtSearch" pref="514" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSearch" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="search" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -198,7 +191,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="56" max="32767" attributes="0"/>
+                      <EmptySpace pref="36" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -248,7 +241,7 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="lblViTri1" min="-2" pref="15" max="-2" attributes="0"/>
-                      <EmptySpace pref="66" max="32767" attributes="0"/>
+                      <EmptySpace pref="117" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>

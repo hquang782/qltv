@@ -79,7 +79,7 @@ public class Login extends javax.swing.JFrame {
 
         btn_dangnhap_login.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         btn_dangnhap_login.setForeground(new java.awt.Color(24, 133, 127));
-        btn_dangnhap_login.setText("ĐĂNG NHẬP");
+        btn_dangnhap_login.setText("LOGIN");
         btn_dangnhap_login.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btn_dangnhap_login.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,7 +90,7 @@ public class Login extends javax.swing.JFrame {
 
         btn_thoat_login.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         btn_thoat_login.setForeground(new java.awt.Color(24, 133, 127));
-        btn_thoat_login.setText("THOÁT");
+        btn_thoat_login.setText("EXIT");
         btn_thoat_login.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btn_thoat_login.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,16 +123,13 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setBackground(new java.awt.Color(0, 51, 255));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/kgtv2.jpg"))); // NOI18N
         jLabel2.setAutoscrolls(true);
-        jLabel2.setMaximumSize(new java.awt.Dimension(672, 630));
-        jLabel2.setMinimumSize(new java.awt.Dimension(672, 630));
-        jLabel2.setPreferredSize(new java.awt.Dimension(672, 630));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanellogin, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))

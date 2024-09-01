@@ -152,10 +152,10 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtSearch, javax.swing.GroupLayout.DEFAULT_SIZE, 514, Short.MAX_VALUE)
+                .addComponent(txtSearch)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(search)
-                .addGap(30, 30, 30))
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -190,7 +190,7 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(56, Short.MAX_VALUE)
+                .addContainerGap(36, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -230,7 +230,7 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
                     .addComponent(jLabel4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblViTri1, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(66, Short.MAX_VALUE))
+                .addContainerGap(117, Short.MAX_VALUE))
         );
 
         tblBang.setModel(new javax.swing.table.DefaultTableModel(
@@ -306,50 +306,46 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel4Layout.createSequentialGroup()
-                                .addGap(68, 68, 68)
-                                .addComponent(btnSua, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(86, 86, 86)
-                                .addComponent(btnXoa, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel4Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 558, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnPrint, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(166, 166, 166)
-                                .addComponent(btnTaoMoi, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(100, 100, 100)
-                                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(441, 441, 441)
-                        .addComponent(jLabel1)))
-                .addContainerGap(547, Short.MAX_VALUE))
+                        .addComponent(jLabel1))
+                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(jPanel4Layout.createSequentialGroup()
+                            .addGap(64, 64, 64)
+                            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(30, 30, 30)
+                            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
+                                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel4Layout.createSequentialGroup()
+                            .addGap(131, 131, 131)
+                            .addComponent(btnSua, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(124, 124, 124)
+                            .addComponent(btnXoa, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(103, 103, 103)
+                            .addComponent(btnPrint, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(109, 109, 109)
+                            .addComponent(btnTaoMoi, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(579, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(15, 15, 15)
                 .addComponent(jLabel1)
-                .addGap(27, 27, 27)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(48, 48, 48)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(48, 48, 48)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnSua, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnXoa, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnTaoMoi, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnPrint, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(200, Short.MAX_VALUE))
+                .addContainerGap(209, Short.MAX_VALUE))
         );
 
         jPanel2.getAccessibleContext().setAccessibleName("Tìm kiếm");
@@ -377,53 +373,40 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
 
     private void btnTaoMoiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTaoMoiActionPerformed
 
-            InsertTheLoai();
-            
+        InsertTheLoai();
+
     }//GEN-LAST:event_btnTaoMoiActionPerformed
-    public void loadJtable(){
-        tblBang.setModel(new DefaultTableModel(null,new String[]{"Mã Thể Loại","Tên Thể Loại","Vị Trí"}));
-        theLoaiSachController controller = new theLoaiSachController();
-        ArrayList<TheLoaiSach> list = controller.ListTheLoai();
-        DefaultTableModel model = (DefaultTableModel) tblBang.getModel();
-       
-        Object rowData[] = new Object[3];
-        for(TheLoaiSach item : list){
-            rowData[0] = item.getMaTheLoai();
-            rowData[1] = item.getTenTheLoai();
-            rowData[2] = item.getViTri();
-            model.addRow(rowData);
-        }
-    }
-    private void btnPrintActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrintActionPerformed
-       loadJtable();
-       clearFormInput();
-    }//GEN-LAST:event_btnPrintActionPerformed
-
-    private void btnSuaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSuaActionPerformed
-
-            SuaTheloai();
-            loadJtable();
-            clearFormInput();
-       
-    }//GEN-LAST:event_btnSuaActionPerformed
 
     private void btnXoaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnXoaActionPerformed
         int row = tblBang.getSelectedRow();
         String value = tblBang.getModel().getValueAt(row, 0).toString();
         theLoaiSachController controller = new theLoaiSachController();
         int result = JOptionPane.showConfirmDialog(null,"Ban co chac muon xoa?" ,"Dong Y",JOptionPane.YES_NO_OPTION,
-                        JOptionPane.QUESTION_MESSAGE);
-         if(result == JOptionPane.YES_OPTION){
-             if(controller.xoaDuLieuTheLoai(value)){
-            JOptionPane.showMessageDialog(null,"Xoa Thanh Cong","Xoa Du Lieu", JOptionPane.OK_OPTION);
-            loadJtable();
-        }else {
-            JOptionPane.showMessageDialog(null,"Xoa That Bai","Xoa Du Lieu", JOptionPane.OK_OPTION);
+            JOptionPane.QUESTION_MESSAGE);
+        if(result == JOptionPane.YES_OPTION){
+            if(controller.xoaDuLieuTheLoai(value)){
+                JOptionPane.showMessageDialog(null,"Xoa Thanh Cong","Xoa Du Lieu", JOptionPane.OK_OPTION);
+                loadJtable();
+            }else {
+                JOptionPane.showMessageDialog(null,"Xoa That Bai","Xoa Du Lieu", JOptionPane.OK_OPTION);
 
+            }
         }
-       }
-        
+
     }//GEN-LAST:event_btnXoaActionPerformed
+
+    private void btnSuaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSuaActionPerformed
+
+        SuaTheloai();
+        loadJtable();
+        clearFormInput();
+
+    }//GEN-LAST:event_btnSuaActionPerformed
+
+    private void btnPrintActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrintActionPerformed
+        loadJtable();
+        clearFormInput();
+    }//GEN-LAST:event_btnPrintActionPerformed
 
     private void tblBangMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblBangMouseClicked
         // TODO add your handling code here:
@@ -438,7 +421,20 @@ public class Admin_QLTheLoaiSach extends javax.swing.JInternalFrame {
     private void txtSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSearchActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtSearchActionPerformed
-
+    public void loadJtable(){
+        tblBang.setModel(new DefaultTableModel(null,new String[]{"Mã Thể Loại","Tên Thể Loại","Vị Trí"}));
+        theLoaiSachController controller = new theLoaiSachController();
+        ArrayList<TheLoaiSach> list = controller.ListTheLoai();
+        DefaultTableModel model = (DefaultTableModel) tblBang.getModel();
+       
+        Object rowData[] = new Object[3];
+        for(TheLoaiSach item : list){
+            rowData[0] = item.getMaTheLoai();
+            rowData[1] = item.getTenTheLoai();
+            rowData[2] = item.getViTri();
+            model.addRow(rowData);
+        }
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnPrint;
