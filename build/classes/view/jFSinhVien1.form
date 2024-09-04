@@ -116,7 +116,7 @@
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/image/logout.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&#x110;&#x103;ng xu&#x1ea5;t"/>
+            <Property name="text" type="java.lang.String" value="Logout"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                 <BevelBorder/>
@@ -196,8 +196,8 @@
                   </AuxValues>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                      <JTabbedPaneConstraints tabName=" C&#x1ead;p nh&#x1ead;t th&#xf4;ng tin" toolTip="">
-                        <Property name="tabTitle" type="java.lang.String" value=" C&#x1ead;p nh&#x1ead;t th&#xf4;ng tin"/>
+                      <JTabbedPaneConstraints tabName="Update information" toolTip="">
+                        <Property name="tabTitle" type="java.lang.String" value="Update information"/>
                         <Property name="tabToolTip" type="java.lang.String" value=""/>
                       </JTabbedPaneConstraints>
                     </Constraint>
@@ -235,8 +235,8 @@
                                               <Group type="102" alignment="0" attributes="0">
                                                   <Group type="103" groupAlignment="0" attributes="0">
                                                       <Component id="lblPassword" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="lblHoTen" alignment="1" min="-2" max="-2" attributes="0"/>
                                                       <Component id="lblMaSV" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="lblHoTen" alignment="0" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -248,7 +248,7 @@
                                                   </Group>
                                               </Group>
                                           </Group>
-                                          <EmptySpace pref="74" max="32767" attributes="0"/>
+                                          <EmptySpace pref="50" max="32767" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
@@ -394,7 +394,8 @@
                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                               <Image iconType="3" name="/image/member.png"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="TH&#xd4;NG TIN SINH VI&#xca;N"/>
+                            <Property name="text" type="java.lang.String" value="Student Information"/>
+                            <Property name="toolTipText" type="java.lang.String" value=""/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="lblMaSV">
@@ -402,7 +403,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="M&#xe3; SV:"/>
+                            <Property name="text" type="java.lang.String" value="Student code:"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="lblPassword">
@@ -418,7 +419,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="H&#x1ecd; t&#xea;n:"/>
+                            <Property name="text" type="java.lang.String" value="Fullname"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="lblNgaySinh">
@@ -426,7 +427,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Ng&#xe0;y sinh:"/>
+                            <Property name="text" type="java.lang.String" value="Date of birth"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="lblGioiTinh">
@@ -434,7 +435,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Gi&#x1edb;i t&#xed;nh:"/>
+                            <Property name="text" type="java.lang.String" value="Gender"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="lblEmail">
@@ -450,7 +451,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="&#x110;&#x1ecb;a ch&#x1ec9;:"/>
+                            <Property name="text" type="java.lang.String" value="Address:"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="lblSDT">
@@ -458,7 +459,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="S&#x110;T:"/>
+                            <Property name="text" type="java.lang.String" value="Phone:"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JTextField" name="txtEmail">
@@ -500,7 +501,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Nam"/>
+                            <Property name="text" type="java.lang.String" value="Male"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JRadioButton" name="rdoNu">
@@ -511,7 +512,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="N&#x1eef;"/>
+                            <Property name="text" type="java.lang.String" value="Female"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JButton" name="btnCapNhat">
@@ -528,7 +529,7 @@
                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                               <Image iconType="3" name="/image/update.png"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="C&#x1ead;p nh&#x1ead;t"/>
+                            <Property name="text" type="java.lang.String" value="Update"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCapNhatActionPerformed"/>
@@ -590,7 +591,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="L&#x1edb;p:"/>
+                            <Property name="text" type="java.lang.String" value="Class:"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JTextField" name="txtMaSV">
@@ -636,8 +637,8 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                      <JTabbedPaneConstraints tabName="          S&#xe1;ch           " toolTip="">
-                        <Property name="tabTitle" type="java.lang.String" value="          S&#xe1;ch           "/>
+                      <JTabbedPaneConstraints tabName="Books" toolTip="">
+                        <Property name="tabTitle" type="java.lang.String" value="Books"/>
                         <Property name="tabToolTip" type="java.lang.String" value=""/>
                       </JTabbedPaneConstraints>
                     </Constraint>
@@ -656,8 +657,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="S&#xe1;ch">
-                            <Property name="tabTitle" type="java.lang.String" value="S&#xe1;ch"/>
+                          <JTabbedPaneConstraints tabName="books">
+                            <Property name="tabTitle" type="java.lang.String" value="books"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -668,7 +669,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="306" max="-2" attributes="0"/>
                                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="342" max="32767" attributes="0"/>
+                                  <EmptySpace pref="423" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
@@ -707,7 +708,7 @@
                               <Font name="Times New Roman" size="24" style="1"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="0"/>
-                            <Property name="text" type="java.lang.String" value="S&#xc1;CH"/>
+                            <Property name="text" type="java.lang.String" value="Book"/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="pnl4">
@@ -717,7 +718,7 @@
                             </Property>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                                <TitledBorder justification="1" title="T&#xec;m Ki&#x1ebf;m theo M&#xe3; S&#xe1;ch, T&#xea;n S&#xe1;ch, M&#xe3; TL">
+                                <TitledBorder justification="1" title="Search by Book Code, Book Name, Genre Code">
                                   <Font PropertyName="font" name="Times New Roman" size="14" style="1"/>
                                 </TitledBorder>
                               </Border>
@@ -814,7 +815,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="18" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="DANH S&#xc1;CH S&#xc1;CH"/>
+                            <Property name="text" type="java.lang.String" value="List Book"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -830,8 +831,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Th&#x1ec3; Lo&#x1ea1;i S&#xe1;ch">
-                            <Property name="tabTitle" type="java.lang.String" value="Th&#x1ec3; Lo&#x1ea1;i S&#xe1;ch"/>
+                          <JTabbedPaneConstraints tabName="category">
+                            <Property name="tabTitle" type="java.lang.String" value="category"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -883,7 +884,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="24" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="TH&#x1ec2; LO&#x1ea0;I S&#xc1;CH"/>
+                            <Property name="text" type="java.lang.String" value="BOOK CATEGORY"/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="pnl10">
@@ -893,7 +894,7 @@
                             </Property>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                                <TitledBorder justification="1" title="T&#xec;m ki&#x1ebf;m M&#xe3; TL, T&#xea;n TL ho&#x1eb7;c V&#x1ecb; tr&#xed;">
+                                <TitledBorder justification="1" title="Search by all attributes">
                                   <Font PropertyName="font" name="Times New Roman" size="14" style="1"/>
                                 </TitledBorder>
                               </Border>
@@ -910,7 +911,7 @@
                                       <Component id="timkiemtheloai" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
                                       <Component id="lblIconSearchTLS" min="-2" pref="67" max="-2" attributes="0"/>
-                                      <EmptySpace pref="25" max="32767" attributes="0"/>
+                                      <EmptySpace pref="24" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -984,7 +985,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="DANH S&#xc1;CH TH&#x1ec2; LO&#x1ea0;I S&#xc1;CH"/>
+                            <Property name="text" type="java.lang.String" value="LIST CATEGORIES"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1005,8 +1006,8 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                      <JTabbedPaneConstraints tabName="Phi&#x1ebf;u Vi Ph&#x1ea1;m" toolTip="">
-                        <Property name="tabTitle" type="java.lang.String" value="Phi&#x1ebf;u Vi Ph&#x1ea1;m"/>
+                      <JTabbedPaneConstraints tabName="violation tickets" toolTip="">
+                        <Property name="tabTitle" type="java.lang.String" value="violation tickets"/>
                         <Property name="tabToolTip" type="java.lang.String" value=""/>
                       </JTabbedPaneConstraints>
                     </Constraint>
@@ -1022,8 +1023,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Phi&#x1ebf;u Vi Ph&#x1ea1;m">
-                            <Property name="tabTitle" type="java.lang.String" value="Phi&#x1ebf;u Vi Ph&#x1ea1;m"/>
+                          <JTabbedPaneConstraints tabName="violation tickets">
+                            <Property name="tabTitle" type="java.lang.String" value="violation tickets"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -1114,7 +1115,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="24" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="PHI&#x1ebe;U VI PH&#x1ea0;M"/>
+                            <Property name="text" type="java.lang.String" value="VIOLATION TICKET"/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JScrollPane" name="jScrollPane5">
@@ -1166,7 +1167,7 @@
                               <Font name="Tahoma" size="14" style="1"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="0"/>
-                            <Property name="text" type="java.lang.String" value="DANH S&#xc1;CH VI PH&#x1ea0;M"/>
+                            <Property name="text" type="java.lang.String" value="list of violations"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="lblMaSach2">
@@ -1236,7 +1237,7 @@
                                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                   <Font name="Segoe UI" size="14" style="1"/>
                                 </Property>
-                                <Property name="text" type="java.lang.String" value="T&#xec;m ki&#x1ebf;m theo m&#xe3; phi&#x1ebf;u"/>
+                                <Property name="text" type="java.lang.String" value="Search by ticket code"/>
                               </Properties>
                             </Component>
                           </SubComponents>
@@ -1299,7 +1300,7 @@
                                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                                 </Property>
-                                <Property name="text" type="java.lang.String" value="Gi&#xe1; ph&#x1ea1;t"/>
+                                <Property name="text" type="java.lang.String" value="FINE"/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel7">
@@ -1360,8 +1361,8 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                      <JTabbedPaneConstraints tabName="     Phi&#x1ebf;u M&#x1b0;&#x1ee3;n    " toolTip="">
-                        <Property name="tabTitle" type="java.lang.String" value="     Phi&#x1ebf;u M&#x1b0;&#x1ee3;n    "/>
+                      <JTabbedPaneConstraints tabName="Borrow tickets" toolTip="">
+                        <Property name="tabTitle" type="java.lang.String" value="Borrow tickets"/>
                         <Property name="tabToolTip" type="java.lang.String" value=""/>
                       </JTabbedPaneConstraints>
                     </Constraint>
@@ -1377,8 +1378,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Phi&#x1ebf;u M&#x1b0;&#x1ee3;n">
-                            <Property name="tabTitle" type="java.lang.String" value="Phi&#x1ebf;u M&#x1b0;&#x1ee3;n"/>
+                          <JTabbedPaneConstraints tabName="Borrow tickets">
+                            <Property name="tabTitle" type="java.lang.String" value="Borrow tickets"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -1455,7 +1456,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Times New Roman" size="24" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="PHI&#x1ebe;U M&#x1af;&#x1ee2;N S&#xc1;CH"/>
+                            <Property name="text" type="java.lang.String" value="BORROW TICKET"/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JScrollPane" name="jScrollPane4">
@@ -1489,7 +1490,7 @@
                               <Font name="Tahoma" size="14" style="1"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="0"/>
-                            <Property name="text" type="java.lang.String" value="DANH S&#xc1;CH PHI&#x1ebe;U M&#x1af;&#x1ee2;N"/>
+                            <Property name="text" type="java.lang.String" value="list of borrow tickets"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="lblMaSach1">
@@ -1575,7 +1576,7 @@
                                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                   <Font name="Segoe UI" size="14" style="1"/>
                                 </Property>
-                                <Property name="text" type="java.lang.String" value="T&#xec;m ki&#x1ebf;m theo m&#xe3; phi&#x1ebf;u"/>
+                                <Property name="text" type="java.lang.String" value="Search by code"/>
                               </Properties>
                             </Component>
                           </SubComponents>

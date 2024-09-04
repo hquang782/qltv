@@ -32,7 +32,7 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
     }
 
     public void loadPhieuMuon(){
-        tblBang.setModel(new DefaultTableModel(null,new String[]{"Mã Phiếu Mượn","Mã Sinh Viên","Mã Sách","Số Lượng","Ngày Mượn","Ngày Hẹn Trả"}));
+        tblBang.setModel(new DefaultTableModel(null,new String[]{"Loan ID", "Student ID", "Book ID", "Quantity", "Borrow Date", "Return Date"}));
         ArrayList<PhieuMuon> list = new PhieuMuonController().listPhieuMuon();
         DefaultTableModel model = (DefaultTableModel) tblBang.getModel();
         Object rowData[] = new Object[6];
@@ -257,12 +257,12 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         jScrollPane1.setViewportView(tblBang);
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        jLabel1.setText("Phiếu Mượn");
+        jLabel1.setText("Manage book borrowing tickets");
 
         btnSua.setBackground(new java.awt.Color(24, 133, 127));
         btnSua.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnSua.setForeground(new java.awt.Color(255, 255, 255));
-        btnSua.setText("Sửa");
+        btnSua.setText("Edit");
         btnSua.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSua.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -273,7 +273,7 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         btnPrint.setBackground(new java.awt.Color(24, 133, 127));
         btnPrint.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnPrint.setForeground(new java.awt.Color(255, 255, 255));
-        btnPrint.setText("Làm Mới Form");
+        btnPrint.setText("Clear");
         btnPrint.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnPrint.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -284,7 +284,7 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         btnTaoMoi.setBackground(new java.awt.Color(24, 133, 127));
         btnTaoMoi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnTaoMoi.setForeground(new java.awt.Color(255, 255, 255));
-        btnTaoMoi.setText("Tạo Mới");
+        btnTaoMoi.setText("Create");
         btnTaoMoi.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnTaoMoi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -293,16 +293,16 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         });
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Thông Tin", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Information", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel2.setText("Mã Phiếu Mượn");
+        jLabel2.setText("Ticket code:");
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel3.setText("Mã Sinh Viên");
+        jLabel3.setText("Student code");
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel4.setText("Mã sách");
+        jLabel4.setText("Book code");
 
         lblMaTheLoai1.setForeground(new java.awt.Color(255, 0, 0));
 
@@ -311,13 +311,13 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         lblViTri1.setForeground(new java.awt.Color(255, 0, 0));
 
         jLabel7.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel7.setText("Số Lượng");
+        jLabel7.setText("Quantity");
 
         jLabel8.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel8.setText("Ngày Mượn");
+        jLabel8.setText("Borrow date");
 
         jLabel9.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel9.setText("Ngày Trả");
+        jLabel9.setText("Return date");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -393,12 +393,18 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         );
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tìm kiếm Mã TL, Tên TL hoặc Vị trí", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Search by ticket code", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
 
         btnSearch.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/search.png"))); // NOI18N
         btnSearch.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnSearchMouseClicked(evt);
+            }
+        });
+
+        txtSearch.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtSearchActionPerformed(evt);
             }
         });
 
@@ -424,7 +430,7 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         btnXoa.setBackground(new java.awt.Color(24, 133, 127));
         btnXoa.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnXoa.setForeground(new java.awt.Color(255, 255, 255));
-        btnXoa.setText("Xóa");
+        btnXoa.setText("Delete");
         btnXoa.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnXoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -457,7 +463,7 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
                         .addGap(137, 137, 137)))
                 .addGap(658, 658, 658))
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(546, 546, 546)
+                .addGap(390, 390, 390)
                 .addComponent(jLabel1)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -539,6 +545,10 @@ public class Admin_PhieuMuon extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
         searchPhieuMuon();
     }//GEN-LAST:event_btnSearchMouseClicked
+
+    private void txtSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSearchActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtSearchActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

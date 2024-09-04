@@ -57,7 +57,7 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
     }
 
     private void loadSinhVien() {
-        tblBang.setModel(new DefaultTableModel(null, new String[]{"Mã SV", "Mật Khẩu", "Lớp", "Họ Tên", "Ngày Sinh", "Giới Tính", "Địa Chỉ", "SDT", "Email"}));
+        tblBang.setModel(new DefaultTableModel(null, new String[]{"Student ID", "Password", "Class", "Full Name", "Date of Birth", "Gender", "Address", "Phone Number", "Email"}));
         ArrayList<SinhVien> list = new SinhVienController().danhSachTatCaSinhVien();
         DefaultTableModel model = (DefaultTableModel) tblBang.getModel();
         Object rowData[] = new Object[9];
@@ -395,33 +395,33 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
         jScrollPane1.setViewportView(tblBang);
 
         pnlThongTin.setBackground(new java.awt.Color(255, 255, 255));
-        pnlThongTin.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Thông Tin", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
+        pnlThongTin.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Information", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         pnlThongTin.setMinimumSize(new java.awt.Dimension(0, 0));
         pnlThongTin.setPreferredSize(new java.awt.Dimension(715, 262));
 
-        jLabel1.setText("Mã SV");
+        jLabel1.setText("Student code");
 
-        jLabel2.setText("Mật Khẩu");
+        jLabel2.setText("Password");
 
-        jLabel3.setText("Họ Và Tên");
+        jLabel3.setText("Fullname");
 
-        jLabel4.setText("Ngày Sinh ");
+        jLabel4.setText("Date of birth ");
 
-        jLabel5.setText("Ngành");
+        jLabel5.setText("Major");
 
-        jLabel6.setText("Giới Tính ");
+        jLabel6.setText("Gender");
 
-        jLabel7.setText("Địa Chỉ");
+        jLabel7.setText("Address");
 
-        jLabel8.setText("SĐT");
+        jLabel8.setText("Phone number");
 
         jLabel9.setText("Email");
 
         buttonGroup1.add(RadNam);
-        RadNam.setText("Nam");
+        RadNam.setText("Male");
 
         buttonGroup1.add(RadNu);
-        RadNu.setText("Nữ");
+        RadNu.setText("Female");
 
         txtbirthday.setDateFormatString("dd-MM-yyyy");
 
@@ -439,8 +439,8 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
                 .addGap(12, 12, 12)
                 .addGroup(pnlThongTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(pnlThongTinLayout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(56, 56, 56)
+                        .addComponent(jLabel1)
+                        .addGap(55, 55, 55)
                         .addComponent(txtMaSinhVien, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(pnlThongTinLayout.createSequentialGroup()
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -451,16 +451,16 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
                         .addGap(56, 56, 56)
                         .addComponent(txtHoVaTen, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(pnlThongTinLayout.createSequentialGroup()
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(56, 56, 56)
+                        .addComponent(jLabel4)
+                        .addGap(54, 54, 54)
                         .addComponent(txtbirthday, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(pnlThongTinLayout.createSequentialGroup()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(56, 56, 56)
                         .addComponent(txtDiaChi, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(pnlThongTinLayout.createSequentialGroup()
-                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(56, 56, 56)
+                        .addComponent(jLabel8)
+                        .addGap(48, 48, 48)
                         .addComponent(txtSĐT, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(pnlThongTinLayout.createSequentialGroup()
                         .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -542,12 +542,12 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
         jLabel10.setBackground(new java.awt.Color(255, 255, 255));
         jLabel10.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("QUẢN LÝ SINH VIÊN");
+        jLabel10.setText("STUDENT MANAGEMENT");
 
         btnLuu.setBackground(new java.awt.Color(24, 133, 127));
         btnLuu.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnLuu.setForeground(new java.awt.Color(255, 255, 255));
-        btnLuu.setText("Lưu");
+        btnLuu.setText("Save");
         btnLuu.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnLuu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -558,7 +558,7 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
         btnSua.setBackground(new java.awt.Color(24, 133, 127));
         btnSua.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnSua.setForeground(new java.awt.Color(255, 255, 255));
-        btnSua.setText("Sửa");
+        btnSua.setText("Edit");
         btnSua.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSua.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -569,7 +569,7 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
         btnXoa.setBackground(new java.awt.Color(24, 133, 127));
         btnXoa.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnXoa.setForeground(new java.awt.Color(255, 255, 255));
-        btnXoa.setText("Xóa");
+        btnXoa.setText("Delete");
         btnXoa.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnXoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -580,7 +580,7 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
         btnTaoMoi.setBackground(new java.awt.Color(24, 133, 127));
         btnTaoMoi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnTaoMoi.setForeground(new java.awt.Color(255, 255, 255));
-        btnTaoMoi.setText("Tạo Mới");
+        btnTaoMoi.setText("Clear");
         btnTaoMoi.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnTaoMoi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -589,7 +589,7 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
         });
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Tìm Kiếm Theo Mã hoặc Tên"));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Search by Code or Name"));
 
         txtSearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -677,6 +677,9 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
                     .addComponent(btnLuu, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(58, 58, 58))
         );
+
+        pnlThongTin.getAccessibleContext().setAccessibleName("Information");
+        jPanel1.getAccessibleContext().setAccessibleName("Search by Code or Name");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

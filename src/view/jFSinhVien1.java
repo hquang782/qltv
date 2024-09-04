@@ -127,7 +127,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
     
     
         public void DSloadPhieuMuon(){
-        tblPhieuMuon.setModel(new DefaultTableModel(null,new String[]{"Mã Phiếu Mượn","Mã Sách","Số Lượng","Ngày Mượn","Ngày Hẹn Trả"}));
+        tblPhieuMuon.setModel(new DefaultTableModel(null,new String[]{"Loan ID", "Book ID", "Quantity", "Borrow Date", "Return Date"}));
         ArrayList<PhieuMuon> list = new PhieuMuonController().SearchMaSVMaPhieu(txtMaSV.getText());
         DefaultTableModel model = (DefaultTableModel) tblPhieuMuon.getModel();   
         Object rowData[] = new Object[5];
@@ -144,7 +144,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
     }
         
         public void DSloadViPham() {
-        tblViPham.setModel(new DefaultTableModel(null, new String[]{"Mã Vi Phạm", "Lỗi Vi Phạm", "Phạt"}));
+        tblViPham.setModel(new DefaultTableModel(null, new String[]{"Violation ID", "Violation Error", "Fine"}));
         ArrayList<ViPham> list = new ViPhamController().SearchTen(txtMaSV.getText());
         DefaultTableModel model = (DefaultTableModel) tblViPham.getModel();
         Object rowData[] = new Object[3];
@@ -160,7 +160,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         
     
          public void DSloadTheloaisach(){
-        tblTheLoaiSach.setModel(new DefaultTableModel(null,new String[]{"Mã Thể Loại","Tên Thể Loại","Vị Trí"}));
+        tblTheLoaiSach.setModel(new DefaultTableModel(null,new String[]{"Category ID", "Category Name", "Position"}));
         theLoaiSachController controller = new theLoaiSachController();
         ArrayList<TheLoaiSach> list = controller.ListTheLoai();
         DefaultTableModel model = (DefaultTableModel) tblTheLoaiSach.getModel();
@@ -197,7 +197,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
          
          
         private void DSloadSach() {
-        tblSach.setModel(new DefaultTableModel(null, new String[]{"Mã sách", "Tên sách", "TL sách", "Tác giả", "Số lượng", "NXB", "Ngày nhập", "ND"}));
+        tblSach.setModel(new DefaultTableModel(null, new String[]{"Book ID", "Book Title", "Genre", "Author", "Quantity", "Publisher", "Date of Entry", "Description"}));
         ArrayList<Sach> list = new SachController().danhSachTatCaSach();
         DefaultTableModel model = (DefaultTableModel) tblSach.getModel();
         Object rowData[] = new Object[9];
@@ -411,7 +411,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         btnDangXuat.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnDangXuat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/logout.png"))); // NOI18N
-        btnDangXuat.setText("Đăng xuất");
+        btnDangXuat.setText("Logout");
         btnDangXuat.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnDangXuat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -435,31 +435,32 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         lblTitleSV.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblTitleSV.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/member.png"))); // NOI18N
-        lblTitleSV.setText("THÔNG TIN SINH VIÊN");
+        lblTitleSV.setText("Student Information");
+        lblTitleSV.setToolTipText("");
 
         lblMaSV.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblMaSV.setText("Mã SV:");
+        lblMaSV.setText("Student code:");
 
         lblPassword.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblPassword.setText("Password:");
 
         lblHoTen.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblHoTen.setText("Họ tên:");
+        lblHoTen.setText("Fullname");
 
         lblNgaySinh.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblNgaySinh.setText("Ngày sinh:");
+        lblNgaySinh.setText("Date of birth");
 
         lblGioiTinh.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblGioiTinh.setText("Giới tính:");
+        lblGioiTinh.setText("Gender");
 
         lblEmail.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblEmail.setText("Email:");
 
         lblDiaChi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblDiaChi.setText("Địa chỉ:");
+        lblDiaChi.setText("Address:");
 
         lblSDT.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblSDT.setText("SĐT:");
+        lblSDT.setText("Phone:");
 
         txtEmail.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
 
@@ -476,17 +477,17 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         buttonGroup1.add(rdoNam);
         rdoNam.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        rdoNam.setText("Nam");
+        rdoNam.setText("Male");
 
         buttonGroup1.add(rdoNu);
         rdoNu.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        rdoNu.setText("Nữ");
+        rdoNu.setText("Female");
 
         btnCapNhat.setBackground(new java.awt.Color(1, 128, 129));
         btnCapNhat.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnCapNhat.setForeground(new java.awt.Color(255, 255, 255));
         btnCapNhat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/update.png"))); // NOI18N
-        btnCapNhat.setText("Cập nhật");
+        btnCapNhat.setText("Update");
         btnCapNhat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCapNhatActionPerformed(evt);
@@ -510,7 +511,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         txtLop.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
 
         lblMaSV1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblMaSV1.setText("Lớp:");
+        lblMaSV1.setText("Class:");
 
         txtMaSV.setEditable(false);
         txtMaSV.setBackground(new java.awt.Color(255, 255, 255));
@@ -541,8 +542,8 @@ public class jFSinhVien1 extends javax.swing.JFrame {
                             .addGroup(pnl2Layout.createSequentialGroup()
                                 .addGroup(pnl2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(lblPassword)
-                                    .addComponent(lblHoTen, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(lblMaSV, javax.swing.GroupLayout.Alignment.TRAILING))
+                                    .addComponent(lblMaSV, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(lblHoTen))
                                 .addGap(18, 18, 18)
                                 .addGroup(pnl2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(txtMaSV, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -550,7 +551,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
                                     .addComponent(lblHoTen1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(lblPassword1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(txtHoTen, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 74, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
                         .addGroup(pnl2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(pnl2Layout.createSequentialGroup()
                                 .addGap(14, 14, 14)
@@ -656,7 +657,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         tabSV.addTab("", pnl2);
 
-        tab.addTab(" Cập nhật thông tin", null, tabSV, "");
+        tab.addTab("Update information", null, tabSV, "");
 
         tabSach.setBackground(new java.awt.Color(255, 255, 255));
         tabSach.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -667,10 +668,10 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         lblTitleSach.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblTitleSach.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblTitleSach.setText("SÁCH");
+        lblTitleSach.setText("Book");
 
         pnl4.setBackground(new java.awt.Color(255, 255, 255));
-        pnl4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tìm Kiếm theo Mã Sách, Tên Sách, Mã TL", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
+        pnl4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Search by Book Code, Book Name, Genre Code", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
         pnl4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         txtSearchS.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -704,7 +705,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         jScrollPane6.setViewportView(tblSach);
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel3.setText("DANH SÁCH SÁCH");
+        jLabel3.setText("List Book");
 
         javax.swing.GroupLayout pnl3Layout = new javax.swing.GroupLayout(pnl3);
         pnl3.setLayout(pnl3Layout);
@@ -713,7 +714,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
             .addGroup(pnl3Layout.createSequentialGroup()
                 .addGap(306, 306, 306)
                 .addComponent(jLabel3)
-                .addContainerGap(342, Short.MAX_VALUE))
+                .addContainerGap(423, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnl3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(pnl3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -741,16 +742,16 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         pnl4.getAccessibleContext().setAccessibleName("Tìm Kiếm theo Mã Sách , Tên Sách, Mã TL");
 
-        tabSach.addTab("Sách", pnl3);
+        tabSach.addTab("books", pnl3);
 
         pnl9.setBackground(new java.awt.Color(255, 255, 255));
         pnl9.setMaximumSize(new java.awt.Dimension(3274, 3276));
 
         lblTitleTLS.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lblTitleTLS.setText("THỂ LOẠI SÁCH");
+        lblTitleTLS.setText("BOOK CATEGORY");
 
         pnl10.setBackground(new java.awt.Color(255, 255, 255));
-        pnl10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tìm kiếm Mã TL, Tên TL hoặc Vị trí", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
+        pnl10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Search by all attributes", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
 
         txtSearchTLS.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
@@ -774,7 +775,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
                 .addComponent(timkiemtheloai)
                 .addGap(131, 131, 131)
                 .addComponent(lblIconSearchTLS, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
         pnl10Layout.setVerticalGroup(
             pnl10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -799,7 +800,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         jScrollPane2.setViewportView(tblTheLoaiSach);
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel2.setText("DANH SÁCH THỂ LOẠI SÁCH");
+        jLabel2.setText("LIST CATEGORIES");
 
         javax.swing.GroupLayout pnl9Layout = new javax.swing.GroupLayout(pnl9);
         pnl9.setLayout(pnl9Layout);
@@ -835,9 +836,9 @@ public class jFSinhVien1 extends javax.swing.JFrame {
                 .addContainerGap(184, Short.MAX_VALUE))
         );
 
-        tabSach.addTab("Thể Loại Sách", pnl9);
+        tabSach.addTab("category", pnl9);
 
-        tab.addTab("          Sách           ", null, tabSach, "");
+        tab.addTab("Books", null, tabSach, "");
 
         tabVP.setBackground(new java.awt.Color(255, 255, 255));
         tabVP.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -846,7 +847,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         pnl12.setBackground(new java.awt.Color(255, 255, 255));
 
         lblTitlePM1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lblTitlePM1.setText("PHIẾU VI PHẠM");
+        lblTitlePM1.setText("VIOLATION TICKET");
 
         tblViPham.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -872,7 +873,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         lblDanhSachPM1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblDanhSachPM1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblDanhSachPM1.setText("DANH SÁCH VI PHẠM");
+        lblDanhSachPM1.setText("list of violations");
 
         lblMaSach2.setForeground(new java.awt.Color(255, 0, 0));
 
@@ -889,7 +890,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         });
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel4.setText("Tìm kiếm theo mã phiếu");
+        jLabel4.setText("Search by ticket code");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -918,7 +919,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         jPanel3.setForeground(new java.awt.Color(255, 204, 204));
 
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Giá phạt");
+        jLabel6.setText("FINE");
 
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Rách sách, vẽ bậy: 20.000 (vnđ)");
@@ -1032,9 +1033,9 @@ public class jFSinhVien1 extends javax.swing.JFrame {
                 .addContainerGap(115, Short.MAX_VALUE))
         );
 
-        tabVP.addTab("Phiếu Vi Phạm", pnl12);
+        tabVP.addTab("violation tickets", pnl12);
 
-        tab.addTab("Phiếu Vi Phạm", null, tabVP, "");
+        tab.addTab("violation tickets", null, tabVP, "");
 
         tabPM.setBackground(new java.awt.Color(255, 255, 255));
         tabPM.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -1043,7 +1044,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         pnl11.setBackground(new java.awt.Color(255, 255, 255));
 
         lblTitlePM.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        lblTitlePM.setText("PHIẾU MƯỢN SÁCH");
+        lblTitlePM.setText("BORROW TICKET");
 
         tblPhieuMuon.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1069,7 +1070,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
 
         lblDanhSachPM.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblDanhSachPM.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblDanhSachPM.setText("DANH SÁCH PHIẾU MƯỢN");
+        lblDanhSachPM.setText("list of borrow tickets");
 
         lblMaSach1.setForeground(new java.awt.Color(255, 0, 0));
 
@@ -1088,7 +1089,7 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         txtPhieuMuon.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel1.setText("Tìm kiếm theo mã phiếu");
+        jLabel1.setText("Search by code");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -1170,9 +1171,9 @@ public class jFSinhVien1 extends javax.swing.JFrame {
         jPanel1.getAccessibleContext().setAccessibleName("Tìm kiếm theo mã phiếu\n");
         jPanel1.getAccessibleContext().setAccessibleDescription("");
 
-        tabPM.addTab("Phiếu Mượn", pnl11);
+        tabPM.addTab("Borrow tickets", pnl11);
 
-        tab.addTab("     Phiếu Mượn    ", null, tabPM, "");
+        tab.addTab("Borrow tickets", null, tabPM, "");
 
         jSeparator1.setBackground(new java.awt.Color(255, 255, 255));
 

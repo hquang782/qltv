@@ -261,7 +261,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jLabel15.setBackground(new java.awt.Color(51, 153, 255));
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/member.png"))); // NOI18N
-        jLabel15.setText("Quản lý Sinh viên        ");
+        jLabel15.setText("Student Management");
         pnlQuanLySinhVien.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 190, 58));
 
         jPanel1.add(pnlQuanLySinhVien, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 200, 60));
@@ -280,7 +280,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jLabel19.setBackground(new java.awt.Color(51, 51, 51));
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/member.png"))); // NOI18N
-        jLabel19.setText("Quản Lý Vi Phạm        ");
+        jLabel19.setText("Violations Management");
         pnlQuanLyViPham.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 190, 58));
 
         jPanel1.add(pnlQuanLyViPham, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 350, 200, 60));
@@ -299,7 +299,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jLabel17.setBackground(new java.awt.Color(51, 51, 51));
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/member.png"))); // NOI18N
-        jLabel17.setText("Quản Lý Phiếu Mượn   ");
+        jLabel17.setText("Manage borrowing tickets");
         pnlQuanLyPhieuMuon.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 190, 58));
 
         jPanel1.add(pnlQuanLyPhieuMuon, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 200, 60));
@@ -318,7 +318,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jLabel14.setBackground(new java.awt.Color(51, 51, 51));
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/member.png"))); // NOI18N
-        jLabel14.setText("Quản Lý Sách             ");
+        jLabel14.setText("Book Management");
         jLabel14.setMaximumSize(new java.awt.Dimension(141, 24));
         jLabel14.setMinimumSize(new java.awt.Dimension(141, 24));
         jLabel14.setPreferredSize(new java.awt.Dimension(141, 24));
@@ -340,7 +340,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jLabel18.setBackground(new java.awt.Color(51, 51, 51));
         jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/member.png"))); // NOI18N
-        jLabel18.setText("Quản Lý Thể Loại Sách");
+        jLabel18.setText("Manage book genres");
         pnlQuanLyTheLoaiSach.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 190, 60));
 
         jPanel1.add(pnlQuanLyTheLoaiSach, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 210, 200, 60));
@@ -360,7 +360,7 @@ public class Admin_menu extends javax.swing.JFrame {
         jLabel20.setBackground(new java.awt.Color(51, 51, 51));
         jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/member.png"))); // NOI18N
-        jLabel20.setText(" Cài Đặt                  ");
+        jLabel20.setText("Setting");
         jLabel20.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel20MouseClicked(evt);
