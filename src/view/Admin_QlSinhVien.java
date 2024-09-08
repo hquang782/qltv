@@ -727,12 +727,14 @@ public class Admin_QlSinhVien extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_tblBangMouseClicked
 
     private void btnLuuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLuuActionPerformed
-            if (btnTaoMoi.getText().equals("Tạo Mới")) {
+            if (btnLuu.getText().equals("Save")) {
                 // TAO MOI
                 if (valiform() == true) {
                     insertSinhVien();
                 }
+                System.out.println("đang thêm");
             } else {
+                System.out.println("cập nhật");
                 if (valiform() == true) {
                     updateSinhVien();
                 }

@@ -68,8 +68,8 @@ public class SinhVienController {
                 ps.setString(9, sv.getEmail());
                 result = ps.executeUpdate();
             }
-        } catch (Exception ex) {
-
+        } catch (SQLException ex) {
+            System.out.print(ex);
         }
         return result;
     }
